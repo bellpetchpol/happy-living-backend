@@ -1,0 +1,14 @@
+Update Log Project Happy Living
+29/5/2021
+
+Api เสร็จไปแล้ว 4 เส้น พร้อม authentication token
+1.register (พร้อมส่งเมล)
+2.login
+3.account/email-verify (เอาไว้รับลิ้ง confirm email)
+4.account/email-resend
+
+Model & Database 4 ตัว
+1.Project
+2.User
+3.UserGroup (กลุ่มของ user นั่นแหละ ไม่อยากตั้ง group เฉยๆ)
+4.UserGroupMember (เชื่อมความสัมพันธ์หา ว่า user แต่ละคนอยู่ Group ไหนบ้าง
